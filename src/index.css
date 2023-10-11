@@ -1,0 +1,53 @@
+/* Importa la fuente 'Nunito' de Google Fonts para ser utilizada en la aplicación. */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Estilos globales para resetear márgenes y rellenos y establecer el modelo de caja a 'border-box'. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establece la fuente predeterminada para el documento como 'Nunito' y sans-serif. */
+html {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Estilos para el elemento <main> de la aplicación, estableciendo un relleno y una altura mínima del 100% de la altura visible. */
+main {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+/* Estilos para elementos <article> en la aplicación, estableciendo un tamaño de fuente, ancho y márgenes. */
+article {
+  font-size: 1.2rem;
+  width: 90%;
+  margin: 1rem;
+}
+
+/* Estilos para los botones en la aplicación, estableciendo márgenes, tamaño de fuente, relleno, cursor y bordes redondeados. */
+button {
+  margin: 0.8rem 0.8rem 0.5rem;
+  font: inherit;
+  font-size: 1rem;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+/* Estilos para las imágenes en la aplicación, estableciendo un ancho, un borde doble, un radio de borde y márgenes. */
+img {
+    width: 200px;
+    border: 0.5rem double #000;
+    border-radius: 50%;
+    margin: 0 1rem 1rem;
+}
+
+/* Estilos para elementos con la clase 'column', estableciendo un diseño de columna y alineando elementos en el centro. */
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
